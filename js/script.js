@@ -479,6 +479,17 @@ mainFormButtonElement.addEventListener("click", () => {
       }
       textPassword.push(`${randomZ}`);
       x = x + 1;
+    } else if (
+      mainSelectNumberElement.value == 3 &&
+      mainSelectLowercaseLettersElement.value == 3 &&
+      mainSelectCapitalLettersElement.value == 3 &&
+      mainSelectSymbolsElement.value == 3
+    ) {
+      aLineOfPasswordElement.innerHTML = `Дырка от бублика!`;
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
+      break;
     }
     const output = textPassword.join("");
 
