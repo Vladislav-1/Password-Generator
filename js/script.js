@@ -103,7 +103,7 @@ mainFormButtonElement.addEventListener("click", () => {
     ) {
       aLineOfPasswordElement.innerHTML = `Определите все необходимые параметры!`;
       aLineOfPasswordElement.style =
-        "background: rgba(255,210,210,1.0); padding: 3px 7px;";
+        "background: rgba(255,255,0,1.0); padding: 3px 7px; width: 100vw; text-align: center; font-size: 16px; font-weight: 600;";
       break;
     } else if (
       mainSelectNumberElement.value == 2 &&
@@ -111,6 +111,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 2 &&
       mainSelectSymbolsElement.value == 2
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0) {
         randomZ = SelectNumber[Math.floor(Math.random() * SelectNumber.length)];
@@ -139,6 +142,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 2 &&
       mainSelectSymbolsElement.value == 2
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0) {
         continue;
@@ -167,6 +173,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 2 &&
       mainSelectSymbolsElement.value == 2
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0) {
         randomZ = SelectNumber[Math.floor(Math.random() * SelectNumber.length)];
@@ -192,6 +201,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 3 &&
       mainSelectSymbolsElement.value == 2
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0) {
         randomZ = SelectNumber[Math.floor(Math.random() * SelectNumber.length)];
@@ -217,6 +229,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 2 &&
       mainSelectSymbolsElement.value == 3
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0) {
         randomZ = SelectNumber[Math.floor(Math.random() * SelectNumber.length)];
@@ -244,6 +259,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 2 &&
       mainSelectSymbolsElement.value == 2
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0 || y == 1) {
         continue;
@@ -266,6 +284,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 3 &&
       mainSelectSymbolsElement.value == 2
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0) {
         randomZ = SelectNumber[Math.floor(Math.random() * SelectNumber.length)];
@@ -285,6 +306,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 3 &&
       mainSelectSymbolsElement.value == 3
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0) {
         randomZ = SelectNumber[Math.floor(Math.random() * SelectNumber.length)];
@@ -306,6 +330,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 3 &&
       mainSelectSymbolsElement.value == 3
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0) {
         randomZ = SelectNumber[Math.floor(Math.random() * SelectNumber.length)];
@@ -321,6 +348,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 3 &&
       mainSelectSymbolsElement.value == 3
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0 || y == 2 || y == 3) {
         continue;
@@ -339,6 +369,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 2 &&
       mainSelectSymbolsElement.value == 3
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0 || y == 1 || y == 3) {
         continue;
@@ -357,6 +390,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 3 &&
       mainSelectSymbolsElement.value == 2
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0 || y == 1 || y == 2) {
         continue;
@@ -373,6 +409,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 2 &&
       mainSelectSymbolsElement.value == 3
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 1 || y == 3) {
         continue;
@@ -394,6 +433,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 3 &&
       mainSelectSymbolsElement.value == 2
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0 || y == 2) {
         continue;
@@ -416,6 +458,9 @@ mainFormButtonElement.addEventListener("click", () => {
       mainSelectCapitalLettersElement.value == 2 &&
       mainSelectSymbolsElement.value == 3
     ) {
+      aLineOfPasswordElement.style =
+        "background: rgba(200,255,200,1.0); padding: 3px 7px; width: 100vw; height: auto; text-align: center; font-size: 18px; font-weight: 600;";
+
       y = Math.floor(Math.random() * 4);
       if (y == 0 || y == 3) {
         continue;
