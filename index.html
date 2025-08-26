@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Генератор паролей с проверкой сложности</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Генератор паролей с проверкой сложности</h1>
+    </header>
+    <main class="main">
+      <div class="aLineOfPassword"></div>
+      <div class="main__form">
+        <div class="main__box_1">
+          <label for="passwordLength" class="main__label_1"
+            >Введите длину пароля (от 7 до 40):</label
+          >
+          <input type="number" id="passwordLength" min="7" max="40" value="7"/>
+        </div>
+        <div class="main__box_2">
+          <label for="mainSelectNumber" class="main__label_2"
+            >Нужны цифры в пароле?</label
+          >
+          <select name="main__select" id="mainSelectNumber">
+            <option value="1">--</option>
+            <option value="2">Да</option>
+            <option value="3">Нет</option>
+          </select>
+        </div>
+        <div class="main__box_3">
+          <label for="mainSelectLowercaseLetters" class="main__label_3"
+            >Нужны строчные буквы в пароле?</label
+          >
+          <select name="main__select" id="mainSelectLowercaseLetters">
+            <option value="1">--</option>
+            <option value="2">Да</option>
+            <option value="3">Нет</option>
+          </select>
+        </div>
+        <div class="main__box_4">
+          <label for="mainSelectCapitalLetters" class="main__label_4"
+            >Нужны заглавные буквы в пароле?</label
+          >
+          <select name="main__select" id="mainSelectCapitalLetters">
+            <option value="1">--</option>
+            <option value="2">Да</option>
+            <option value="3">Нет</option>
+          </select>
+        </div>
+        <div class="main__box_5">
+          <label for="mainSelectSymbols" class="main__label_4"
+            >Нужны символы в пароле?</label
+          >
+          <select name="main__select" id="mainSelectSymbols">
+            <option value="1">--</option>
+            <option value="2">Да</option>
+            <option value="3">Нет</option>
+          </select>
+        </div>
+        <button class="main__formButton">Создать пароль</button>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
